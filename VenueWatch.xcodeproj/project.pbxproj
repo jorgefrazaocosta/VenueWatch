@@ -1,0 +1,677 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB90FE391B1F34F6004E2F93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB90FE381B1F34F6004E2F93 /* AppDelegate.swift */; };
+		CB90FE3B1B1F34F6004E2F93 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB90FE3A1B1F34F6004E2F93 /* ViewController.swift */; };
+		CB90FE3E1B1F34F6004E2F93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB90FE3C1B1F34F6004E2F93 /* Main.storyboard */; };
+		CB90FE401B1F34F6004E2F93 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB90FE3F1B1F34F6004E2F93 /* Images.xcassets */; };
+		CB90FE431B1F34F6004E2F93 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB90FE411B1F34F6004E2F93 /* LaunchScreen.xib */; };
+		CB90FE4F1B1F34F6004E2F93 /* VenueWatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB90FE4E1B1F34F6004E2F93 /* VenueWatchTests.swift */; };
+		CB90FE611B1F3502004E2F93 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB90FE601B1F3502004E2F93 /* InterfaceController.swift */; };
+		CB90FE631B1F3502004E2F93 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB90FE621B1F3502004E2F93 /* Images.xcassets */; };
+		CB90FE671B1F3502004E2F93 /* VenueWatch WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = CB90FE661B1F3502004E2F93 /* VenueWatch WatchKit App.app */; };
+		CB90FE6F1B1F3502004E2F93 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB90FE6D1B1F3502004E2F93 /* Interface.storyboard */; };
+		CB90FE711B1F3502004E2F93 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB90FE701B1F3502004E2F93 /* Images.xcassets */; };
+		CB90FE741B1F3502004E2F93 /* VenueWatch WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CB90FE5C1B1F3502004E2F93 /* VenueWatch WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CB90FE491B1F34F6004E2F93 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB90FE2B1B1F34F6004E2F93 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB90FE321B1F34F6004E2F93;
+			remoteInfo = VenueWatch;
+		};
+		CB90FE681B1F3502004E2F93 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB90FE2B1B1F34F6004E2F93 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB90FE651B1F3502004E2F93;
+			remoteInfo = "VenueWatch WatchKit App";
+		};
+		CB90FE721B1F3502004E2F93 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB90FE2B1B1F34F6004E2F93 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB90FE5B1B1F3502004E2F93;
+			remoteInfo = "VenueWatch WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CB90FE7B1B1F3502004E2F93 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				CB90FE741B1F3502004E2F93 /* VenueWatch WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CB90FE331B1F34F6004E2F93 /* VenueWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VenueWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB90FE371B1F34F6004E2F93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB90FE381B1F34F6004E2F93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CB90FE3A1B1F34F6004E2F93 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CB90FE3D1B1F34F6004E2F93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CB90FE3F1B1F34F6004E2F93 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CB90FE421B1F34F6004E2F93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CB90FE481B1F34F6004E2F93 /* VenueWatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VenueWatchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB90FE4D1B1F34F6004E2F93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB90FE4E1B1F34F6004E2F93 /* VenueWatchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueWatchTests.swift; sourceTree = "<group>"; };
+		CB90FE5C1B1F3502004E2F93 /* VenueWatch WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "VenueWatch WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB90FE5F1B1F3502004E2F93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB90FE601B1F3502004E2F93 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		CB90FE621B1F3502004E2F93 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CB90FE661B1F3502004E2F93 /* VenueWatch WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VenueWatch WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB90FE6C1B1F3502004E2F93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB90FE6E1B1F3502004E2F93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		CB90FE701B1F3502004E2F93 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB90FE301B1F34F6004E2F93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB90FE451B1F34F6004E2F93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB90FE591B1F3502004E2F93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB90FE2A1B1F34F6004E2F93 = {
+			isa = PBXGroup;
+			children = (
+				CB90FE351B1F34F6004E2F93 /* VenueWatch */,
+				CB90FE4B1B1F34F6004E2F93 /* VenueWatchTests */,
+				CB90FE5D1B1F3502004E2F93 /* VenueWatch WatchKit Extension */,
+				CB90FE6A1B1F3502004E2F93 /* VenueWatch WatchKit App */,
+				CB90FE341B1F34F6004E2F93 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB90FE341B1F34F6004E2F93 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB90FE331B1F34F6004E2F93 /* VenueWatch.app */,
+				CB90FE481B1F34F6004E2F93 /* VenueWatchTests.xctest */,
+				CB90FE5C1B1F3502004E2F93 /* VenueWatch WatchKit Extension.appex */,
+				CB90FE661B1F3502004E2F93 /* VenueWatch WatchKit App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB90FE351B1F34F6004E2F93 /* VenueWatch */ = {
+			isa = PBXGroup;
+			children = (
+				CB90FE381B1F34F6004E2F93 /* AppDelegate.swift */,
+				CB90FE3A1B1F34F6004E2F93 /* ViewController.swift */,
+				CB90FE3C1B1F34F6004E2F93 /* Main.storyboard */,
+				CB90FE3F1B1F34F6004E2F93 /* Images.xcassets */,
+				CB90FE411B1F34F6004E2F93 /* LaunchScreen.xib */,
+				CB90FE361B1F34F6004E2F93 /* Supporting Files */,
+			);
+			path = VenueWatch;
+			sourceTree = "<group>";
+		};
+		CB90FE361B1F34F6004E2F93 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB90FE371B1F34F6004E2F93 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CB90FE4B1B1F34F6004E2F93 /* VenueWatchTests */ = {
+			isa = PBXGroup;
+			children = (
+				CB90FE4E1B1F34F6004E2F93 /* VenueWatchTests.swift */,
+				CB90FE4C1B1F34F6004E2F93 /* Supporting Files */,
+			);
+			path = VenueWatchTests;
+			sourceTree = "<group>";
+		};
+		CB90FE4C1B1F34F6004E2F93 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB90FE4D1B1F34F6004E2F93 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CB90FE5D1B1F3502004E2F93 /* VenueWatch WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				CB90FE601B1F3502004E2F93 /* InterfaceController.swift */,
+				CB90FE621B1F3502004E2F93 /* Images.xcassets */,
+				CB90FE5E1B1F3502004E2F93 /* Supporting Files */,
+			);
+			path = "VenueWatch WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		CB90FE5E1B1F3502004E2F93 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB90FE5F1B1F3502004E2F93 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CB90FE6A1B1F3502004E2F93 /* VenueWatch WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				CB90FE6D1B1F3502004E2F93 /* Interface.storyboard */,
+				CB90FE701B1F3502004E2F93 /* Images.xcassets */,
+				CB90FE6B1B1F3502004E2F93 /* Supporting Files */,
+			);
+			path = "VenueWatch WatchKit App";
+			sourceTree = "<group>";
+		};
+		CB90FE6B1B1F3502004E2F93 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB90FE6C1B1F3502004E2F93 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB90FE321B1F34F6004E2F93 /* VenueWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB90FE521B1F34F6004E2F93 /* Build configuration list for PBXNativeTarget "VenueWatch" */;
+			buildPhases = (
+				CB90FE2F1B1F34F6004E2F93 /* Sources */,
+				CB90FE301B1F34F6004E2F93 /* Frameworks */,
+				CB90FE311B1F34F6004E2F93 /* Resources */,
+				CB90FE7B1B1F3502004E2F93 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB90FE731B1F3502004E2F93 /* PBXTargetDependency */,
+			);
+			name = VenueWatch;
+			productName = VenueWatch;
+			productReference = CB90FE331B1F34F6004E2F93 /* VenueWatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CB90FE471B1F34F6004E2F93 /* VenueWatchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB90FE551B1F34F6004E2F93 /* Build configuration list for PBXNativeTarget "VenueWatchTests" */;
+			buildPhases = (
+				CB90FE441B1F34F6004E2F93 /* Sources */,
+				CB90FE451B1F34F6004E2F93 /* Frameworks */,
+				CB90FE461B1F34F6004E2F93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB90FE4A1B1F34F6004E2F93 /* PBXTargetDependency */,
+			);
+			name = VenueWatchTests;
+			productName = VenueWatchTests;
+			productReference = CB90FE481B1F34F6004E2F93 /* VenueWatchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CB90FE5B1B1F3502004E2F93 /* VenueWatch WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB90FE781B1F3502004E2F93 /* Build configuration list for PBXNativeTarget "VenueWatch WatchKit Extension" */;
+			buildPhases = (
+				CB90FE581B1F3502004E2F93 /* Sources */,
+				CB90FE591B1F3502004E2F93 /* Frameworks */,
+				CB90FE5A1B1F3502004E2F93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB90FE691B1F3502004E2F93 /* PBXTargetDependency */,
+			);
+			name = "VenueWatch WatchKit Extension";
+			productName = "VenueWatch WatchKit Extension";
+			productReference = CB90FE5C1B1F3502004E2F93 /* VenueWatch WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		CB90FE651B1F3502004E2F93 /* VenueWatch WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB90FE751B1F3502004E2F93 /* Build configuration list for PBXNativeTarget "VenueWatch WatchKit App" */;
+			buildPhases = (
+				CB90FE641B1F3502004E2F93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "VenueWatch WatchKit App";
+			productName = "VenueWatch WatchKit App";
+			productReference = CB90FE661B1F3502004E2F93 /* VenueWatch WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB90FE2B1B1F34F6004E2F93 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Tuts+";
+				TargetAttributes = {
+					CB90FE321B1F34F6004E2F93 = {
+						CreatedOnToolsVersion = 6.3.2;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					CB90FE471B1F34F6004E2F93 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = CB90FE321B1F34F6004E2F93;
+					};
+					CB90FE5B1B1F3502004E2F93 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					CB90FE651B1F3502004E2F93 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+				};
+			};
+			buildConfigurationList = CB90FE2E1B1F34F6004E2F93 /* Build configuration list for PBXProject "VenueWatch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB90FE2A1B1F34F6004E2F93;
+			productRefGroup = CB90FE341B1F34F6004E2F93 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB90FE321B1F34F6004E2F93 /* VenueWatch */,
+				CB90FE471B1F34F6004E2F93 /* VenueWatchTests */,
+				CB90FE5B1B1F3502004E2F93 /* VenueWatch WatchKit Extension */,
+				CB90FE651B1F3502004E2F93 /* VenueWatch WatchKit App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB90FE311B1F34F6004E2F93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB90FE3E1B1F34F6004E2F93 /* Main.storyboard in Resources */,
+				CB90FE431B1F34F6004E2F93 /* LaunchScreen.xib in Resources */,
+				CB90FE401B1F34F6004E2F93 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB90FE461B1F34F6004E2F93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB90FE5A1B1F3502004E2F93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB90FE671B1F3502004E2F93 /* VenueWatch WatchKit App.app in Resources */,
+				CB90FE631B1F3502004E2F93 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB90FE641B1F3502004E2F93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB90FE6F1B1F3502004E2F93 /* Interface.storyboard in Resources */,
+				CB90FE711B1F3502004E2F93 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB90FE2F1B1F34F6004E2F93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB90FE3B1B1F34F6004E2F93 /* ViewController.swift in Sources */,
+				CB90FE391B1F34F6004E2F93 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB90FE441B1F34F6004E2F93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB90FE4F1B1F34F6004E2F93 /* VenueWatchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB90FE581B1F3502004E2F93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB90FE611B1F3502004E2F93 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CB90FE4A1B1F34F6004E2F93 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB90FE321B1F34F6004E2F93 /* VenueWatch */;
+			targetProxy = CB90FE491B1F34F6004E2F93 /* PBXContainerItemProxy */;
+		};
+		CB90FE691B1F3502004E2F93 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB90FE651B1F3502004E2F93 /* VenueWatch WatchKit App */;
+			targetProxy = CB90FE681B1F3502004E2F93 /* PBXContainerItemProxy */;
+		};
+		CB90FE731B1F3502004E2F93 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB90FE5B1B1F3502004E2F93 /* VenueWatch WatchKit Extension */;
+			targetProxy = CB90FE721B1F3502004E2F93 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CB90FE3C1B1F34F6004E2F93 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB90FE3D1B1F34F6004E2F93 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CB90FE411B1F34F6004E2F93 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB90FE421B1F34F6004E2F93 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		CB90FE6D1B1F3502004E2F93 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB90FE6E1B1F3502004E2F93 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB90FE501B1F34F6004E2F93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CB90FE511B1F34F6004E2F93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB90FE531B1F34F6004E2F93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VenueWatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CB90FE541B1F34F6004E2F93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VenueWatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CB90FE561B1F34F6004E2F93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = VenueWatchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VenueWatch.app/VenueWatch";
+			};
+			name = Debug;
+		};
+		CB90FE571B1F34F6004E2F93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = VenueWatchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VenueWatch.app/VenueWatch";
+			};
+			name = Release;
+		};
+		CB90FE761B1F3502004E2F93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = VenueWatch_WatchKit_Extension;
+				INFOPLIST_FILE = "VenueWatch WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		CB90FE771B1F3502004E2F93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = VenueWatch_WatchKit_Extension;
+				INFOPLIST_FILE = "VenueWatch WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		CB90FE791B1F3502004E2F93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "VenueWatch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		CB90FE7A1B1F3502004E2F93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "VenueWatch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB90FE2E1B1F34F6004E2F93 /* Build configuration list for PBXProject "VenueWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB90FE501B1F34F6004E2F93 /* Debug */,
+				CB90FE511B1F34F6004E2F93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB90FE521B1F34F6004E2F93 /* Build configuration list for PBXNativeTarget "VenueWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB90FE531B1F34F6004E2F93 /* Debug */,
+				CB90FE541B1F34F6004E2F93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CB90FE551B1F34F6004E2F93 /* Build configuration list for PBXNativeTarget "VenueWatchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB90FE561B1F34F6004E2F93 /* Debug */,
+				CB90FE571B1F34F6004E2F93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CB90FE751B1F3502004E2F93 /* Build configuration list for PBXNativeTarget "VenueWatch WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB90FE761B1F3502004E2F93 /* Debug */,
+				CB90FE771B1F3502004E2F93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CB90FE781B1F3502004E2F93 /* Build configuration list for PBXNativeTarget "VenueWatch WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB90FE791B1F3502004E2F93 /* Debug */,
+				CB90FE7A1B1F3502004E2F93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB90FE2B1B1F34F6004E2F93 /* Project object */;
+}
